@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admissions Form</title>
+</head>
+
+<body>
+    <h2>Admissions Form</h2>
+    <p>Enter your admission information below</p>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="fname">Name <span style="color: red;">*</span></label></td>
+            </tr>
+             <tr>
+                <td align="right"><input type="text" id="fname" name="fname" placeholder="First Name"></td>
+                <td><input type="text" id="mname" name="mname" placeholder="Middle Initial"></td>
+                <td><input type="text" id="lname" name="lname" placeholder="Last Name"></td>
+            <tr>
+
+            <tr>
+                <td><label for="bdate">Birth Date <span style="color: red;">*</span></label></td>
+            </tr>
+            <tr>
+                <td> <select name="bmonth">
+                        <option value="">Month</option>
+                        <!-- Add months -->
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <!-- ... up to December -->
+                    </select>
+
+
+
+                    <select name="bday">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+
+
+
+
+                    <select name="byear">
+                        <option value="">Year</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                    </select>
+
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td> <label>Gender <span style="color: red;">*</span></label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" value="male"> Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" value="female"> Female</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" value="decline"> Decline to Answer</td>
+            </tr>
+
+
+            <tr>
+                <td> <label>Are you Hispanic or Latino? <span style="color: red;">*</span></label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="ethnicity" value="no"> No</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="ethnicity" value="yes"> Yes</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="ethnicity" value="decline"> Decline to Answer</td>
+            </tr>
+
+    </form>
+    </table>
+</body>
+
+</html>

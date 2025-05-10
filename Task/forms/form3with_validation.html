@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <table cellpadding="10">
+            <caption style="color: blue;">
+                <u>Student Registration Form USing Table in HTML</u>
+            </caption>
+
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input type="text" placeholder="Shlok" pattern="[A-za-z]{3,50}" required >
+                    (max 50 characters allowed)</td>
+            </tr>
+
+            <tr>
+                <td><label>Last Name</label></td>
+                <td><input type="text" placeholder="Savaliya" pattern="[A-za-z]{3,50}" required >
+                    (MAx 50 characters allowed)</td>
+            </tr>
+
+            <tr>
+                <td><label>Email ID</label></td>
+                <td><input type="email" pattern="[a-z0-9]+@[a-z0-9]+.[a-z]{2,5}" required ></td>
+            </tr>
+
+            <tr>
+                <td><label>Mobile Number</label></td>
+                <td><input type="text" placeholder="9879xxxxxx" pattern="[6789][0-9]{9}" maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="t" required>male
+                    <input type="radio" name="t">female
+                    <input type="radio" name="t">others
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Date of Birth(DOB)</label></td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label>City</label></td>
+                <td><input type="text" placeholder="ahmedabad">
+                    (Max 50 characters allowed)
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>pincode</label></td>
+                <td><input type="text" placeholder="380024">
+                    (Max 6 numbers allowed)</td>
+            </tr>
+
+            <tr>
+                <td><label>state</label></td>
+                <td><input type="text" placeholder="ahmedabad">
+                    (Max 50 characters allowed)</td>
+            </tr>
+
+            <tr>
+                <td><label>country</label></td>
+                <td><input type="text" placeholder="india"></td>
+            </tr>
+
+            <tr>
+                <td><label>hobbies</label></td>
+                <td><input type="checkbox">Drawing
+                    <input type="checkbox">Singing
+                    <input type="checkbox">dancing
+                    <input type="checkbox">sketching
+                    <br>
+                    <input type="checkbox">others
+                    <input type="text" placeholder="Ex-teaching">
+                    (Max 50 characters allowed)
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="7"><label>Qualification</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox">high school(10th)</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox">higher school(12th)</td>
+            </tr>
+
+            </tr>
+            <td><input type="checkbox">graduation(bechelors)</td>
+            <tr>
+
+            <tr>
+                <td><input type="checkbox">post graduation(masters)</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox">phd</td>
+    
+            </tr>
+
+            
+            <tr>
+                <td rowspan="8"><label>Courses  applied for</label></td>
+            </tr>
+            <tr><td><input type="checkbox">bca(bachelor of computer applications)</td></tr>
+            <tr><td><input type="checkbox" name="tt">B.com(bechelor of commerce)</td></tr>
+            <tr><td><input type="checkbox" name="tt">b.sc(bechelor of science)</td></tr>    
+            <tr><td><input type="checkbox" name="tt">BA(bechelor of arts)</td></tr>    
+            <tr><td><input type="checkbox" name="tt">MCA(master of computer application)</td></tr>   
+            <tr><td><input type="checkbox" name="tt">m.com(master of commerce)</td></tr>    
+            <tr><td><input type="checkbox" name="tt">MA(master of arts)</td></tr>
+            <tr>
+                <td align="center"><input type="submit"></td>
+                <td align="left"><input type="reset"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
