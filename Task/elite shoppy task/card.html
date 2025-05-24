@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 500px;
+            width: 300px;
+            border: 5px solid;
+            position: relative;
+            margin: 200px auto;
+        }
+
+        .imeg {
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            transition: .6s;
+        }
+
+        #second {
+            position: absolute;
+            right: 0;
+        }
+
+        .info {
+            position: absolute;
+            height: 200px;
+            width: 300px;
+            border-top: 5px solid black;
+            top: 300px;
+        }
+
+        a {
+            position: absolute;
+            text-align: center;
+            font-size: 30px;
+            color: red;
+            background-color: rgb(134, 175, 211);
+            top: 50px;
+            left: 60px;
+        }
+
+        .new {
+            position: absolute;
+            background-color: red;
+            width: 60px;
+            height: 30px;
+            font-size: 30px;
+            left: 80%;
+        }
+
+        .hov {
+            position: absolute;
+            width: 300px;
+            height: 40px;
+            opacity: 0;
+            transition: .6s;
+            background-color: rgba(0, 0, 0, 0.9);
+            font-size: 30px;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        .main:hover .hov {
+            transform: translate(0, 250px);
+            opacity: 1;
+            transition: .6s;
+        }
+
+        /* #second{
+            transform: rotateY(0deg);
+        } */
+        .main:hover .imeg {
+            transform: rotateY(180deg);
+        }
+
+        .main:hover #second {
+            transform: rotateY(180deg);
+         
+        }
+
+        .btn {
+            height: 40px;
+            width: 140px;
+            background-color: aqua;
+            font-size: 30px;
+            position: absolute;
+            top: 63px;
+            left: 22px;
+            margin-left: 90px;
+            transition: transperent;
+            border: 5px solid aqua;
+        }
+
+        .hov:hover{
+            background-color: aqua;
+        }
+
+        .mbtn {
+            position: absolute;
+            top: 70px;
+            right: 335px;
+        }
+
+        .inner:hover {
+            transform: scale(1.1, 1.1);
+            transition: .4s;
+        }
+
+        .inner {
+            height: 50px;
+            width: 149px;
+            border: 5px solid aqua;
+            font-size: 34px;
+            transition: tranform .2s;
+            position: absolute;
+            left: 108px;
+            top: 58px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="imeg"><img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m2.jpg" alt="" width="300px" height="300px">
+            <img id="second" src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m2.jpg" alt="" width="300px" height="300px">
+        </div>
+        <div class="info"><a>butterfly sticker</a><br>
+
+            <div class="mbtn">
+                <div class="btn">
+                    shop now
+                </div>
+                <div class="inner">
+                </div>
+            </div>
+        </div>
+        <div class="new">new</div>
+        <div class="hov">buy now!</div>
+    </div>
+
+</body>
+
+</html>

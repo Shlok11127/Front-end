@@ -1,0 +1,94 @@
+.navbar {
+  width: 100%;
+  background-color:  rgb(84, 84, 249);
+  height: 50px;
+}
+
+.logo {
+  font-size: 30px;
+  color: aliceblue;
+  float: left;
+  display: inline-block;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.menuitems {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  line-height: 50px;
+}
+
+.items {
+  display: inline-block;
+  position: relative; 
+  padding-right: 15px;
+  color: aliceblue;
+}
+
+.navitem {
+  display: inline-block;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color:  rgb(84, 84, 249);
+  width: 160px;
+}
+
+.drdown {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+
+.drdown:hover {
+  background-color: blue;
+}
+
+
+.items:hover .dropdown {
+  display: block;
+}
+
+.nesteddrop{
+    position: relative;
+}
+
+.nestedd{
+   position: absolute;
+   background-color:  rgb(84, 84, 249);
+   width: 100px;
+   display: none;
+   
+}
+
+.nest{
+    display: block;
+    text-align: center;
+    transition: .5s;
+    border-bottom: 2px solid white;
+}
+
+.nesteddrop:hover .nestedd{
+    display: block;
+    left: 100%;
+    top: 0;
+  
+}
+
+.nest:hover{
+     background-color:blue;
+}
