@@ -1,55 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar {
   width: 100%;
+  height: 56px;
   background-color:  rgb(84, 84, 249);
-  height: 50px;
 }
 
 .logo {
   font-size: 30px;
-  color: aliceblue;
+  color: white;
   float: left;
-  display: inline-block;
-  line-height: 50px;
-  padding-left: 20px;
+  margin: 8px;
 }
 
 .menuitems {
-  display: inline-block;
   float: right;
   margin-right: 20px;
-  line-height: 50px;
 }
 
 .items {
   display: inline-block;
   position: relative; 
   padding-right: 15px;
-  color: aliceblue;
+  color:white;
 }
 
 .navitem {
-  display: inline-block;
   cursor: pointer;
-  color: aliceblue;
+  color: white;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
 }
 
+.navitem:hover{
+    background-color: blue;
+}
 
 .dropdown {
   position: absolute;
-  top: 100%;
-  left: 0;
+  top: 150%;
   display: none;
-  background-color:  rgb(84, 84, 249);
+  background-color: rgb(84, 84, 249);
   width: 160px;
 }
 
 .drdown {
   display: block;
   color: white;
-  padding: 10px;
-  text-align: left;
+  padding: 30px;
+  text-align: center;
   cursor: pointer;
   border-bottom: 2px solid white;
 }
@@ -80,6 +82,7 @@
     text-align: center;
     transition: .5s;
     border-bottom: 2px solid white;
+    padding: 20px;
 }
 
 .nesteddrop:hover .nestedd{
