@@ -1,0 +1,47 @@
+/* Change the background color of the form.
+ Add padding and margins to form fields.
+ Style the submit button with a hover effect.
+ Use class selectors for styling common elements and ID selectors for unique elements.   */
+
+
+        #contactform {
+            background-color: #2e9bfb;
+            padding: 20px;
+            width: 370px;
+            margin: 40px auto;
+            border-radius: 10px;
+        }
+
+        .form {
+            margin-bottom: 15px;
+        }
+
+        .form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .form input,.form select {
+            width: 350px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #submitbutton {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        #submitbutton:hover {
+            background-color: #0056b3;
+        }

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 400px;
+    width: 500px;
+    border: 2px solid;
+    display: flex;
+    margin: 200px auto;
+}
+
+.profile img{
+      height: 200px;
+      width: 200px;
+      clip-path: circle(50%);
+      margin-top: 10px;
+      margin-left: 10px;
+}
+
+.name{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 2px 2px 2px 1px rgba(203, 64, 64, 0.2);
+}
+
+.bio{
+       border: 2px solid;
+       font-size: 20px;
+       margin-top: 10px;
+       margin-left: 10px;
+       text-align: center;
+       
+}
+
+#submitbutton{
+      margin: 50px;
+      padding: 0;
+      height: 100px;
+      width: 200px;
+      font-size: 30px;
+      background-color: rgb(98, 140, 255);
+      color: white;
+      cursor: pointer;
+}
+
+
+#submitbutton:hover{
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
