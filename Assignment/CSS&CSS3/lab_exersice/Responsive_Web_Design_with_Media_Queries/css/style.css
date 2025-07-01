@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main {
+    background: url(/Responsive_Web_Design_with_Media_Queries/img/Background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c87e6b;
+    width: 100%;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.list .listitem {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 40px 0 0;
+}
+
+.listdata {
+    text-decoration: none;
+    font-size: clamp(10px, 2.5vw, 20px);
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: white;
+    font-weight: 800;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.btnsec {
+    padding: 20px;
+}
+
+.btnsec i {
+    color: white;
+    font-size: clamp(10px, 2.5vw, 30px);
+    padding: 0 20px 0 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btnsec #bars {
+    display: none;
+}
+
+.header-main {
+    display: flex;
+}
+
+.info-section {
+    width: 50%;
+    margin: 200px auto;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.info-section .title h1 {
+    font-size: clamp(20px, 5vw, 58px);
+    letter-spacing: 1px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+.subtitle {
+    padding-bottom: 20px;
+}
+
+.info-section .subtitle h2 {
+    font-size: clamp(10px, 2.5vw, 30px);
+    color: #765a33;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+}
+
+.dec-section {
+    display: flex;
+    justify-content: center;
+}
+
+.dec-section p {
+    width: 500px;
+    font-size: clamp(10px, 2.5vw, 25px);
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#shp-btn {
+    font-size: clamp(10px, 2.5vw, 20px);
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    background-color: #787878;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+}
+
+#rd-btn {
+    font-size: clamp(10px, 2.5vw, 20px);
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.img-section {
+    width: 50%;
+}
+
+.img-section img {
+    width: 100%
+}
+
+/* header end */
+
+
+
+/* footer start */
+#footer {
+    padding: 50px 0;
+    background-color: #424242;
+}
+
+.footer .row {
+    display: flex;
+}
+
+
+.footer .row .col-6 {
+    width: 100%;
+}
+
+.col-6 .row .col {
+    width: 33.33%;
+}
+
+.footer-text .footer-h3 {
+    font-size: clamp(10px,2.5vw,38px);
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+}
+
+.footer-ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer-ul .footer-li {
+    margin: 10px 0;
+}
+
+.footer-ul .footer-li .footer-a {
+    font-size: clamp(10px,2.5vw,25px);
+    letter-spacing: -1px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-decoration: none;
+}
+
+.row2 {
+    width: 100%;
+}
+
+.social-hendle{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.follow h3 {
+    font-size: clamp(10px,2.5vw,25px);
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    text-align: right;
+    margin-right: clamp(10px,2.5vw,25px);
+   padding: 10px;
+}
+
+.icons {
+    width: 2%;
+    border: 3px solid #e8e1d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e8e1d3;
+    font-size: clamp(10px,2.5vw,24px);
+    padding: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+/* footer end */
